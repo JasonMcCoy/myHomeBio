@@ -12,6 +12,7 @@
 		13EC88C41D2F84ED0023C9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EC88C21D2F84ED0023C9E1 /* Main.storyboard */; };
 		13EC88C61D2F84ED0023C9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EC88C51D2F84ED0023C9E1 /* Assets.xcassets */; };
 		13EC88C91D2F84ED0023C9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EC88C71D2F84ED0023C9E1 /* LaunchScreen.storyboard */; };
+		51F99BD21D30134E00AE286E /* Archive.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51F99BD11D30134E00AE286E /* Archive.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13EC88C51D2F84ED0023C9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13EC88C81D2F84ED0023C9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13EC88CA1D2F84ED0023C9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F99BD11D30134E00AE286E /* Archive.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Archive.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		13EC88BD1D2F84ED0023C9E1 /* myHomeBio */ = {
 			isa = PBXGroup;
 			children = (
+				51F99BD11D30134E00AE286E /* Archive.otf */,
 				13EC88BE1D2F84ED0023C9E1 /* AppDelegate.swift */,
 				13EC88C01D2F84ED0023C9E1 /* ViewController.swift */,
 				13EC88C21D2F84ED0023C9E1 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F99BD21D30134E00AE286E /* Archive.otf in Resources */,
 				13EC88C91D2F84ED0023C9E1 /* LaunchScreen.storyboard in Resources */,
 				13EC88C61D2F84ED0023C9E1 /* Assets.xcassets in Resources */,
 				13EC88C41D2F84ED0023C9E1 /* Main.storyboard in Resources */,
@@ -297,6 +301,7 @@
 				13EC88CF1D2F84ED0023C9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
