@@ -9,17 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var aboutMeBtn: UIButton!
+    @IBOutlet weak var myAppsBtn: UIButton!
+    @IBOutlet weak var meAndIreneImg: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        meAndIreneImg.layer.cornerRadius = 10.0
+        aboutMeBtn.layer.cornerRadius = 4.0
+        myAppsBtn.layer.cornerRadius = 4.0
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
 
 }
 
