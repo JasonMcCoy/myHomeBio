@@ -251,132 +251,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="aJg-cH-isv"/>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lan-2h-Hox">
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZF-7H-l1q">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="184" id="07Y-9D-7RE"/>
-                                            <constraint firstAttribute="height" constant="300" id="CmE-8e-0zY"/>
-                                        </constraints>
-                                        <state key="normal" image="TamaGiga Pet 2 Icon"/>
-                                    </button>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TamaGiga Pet 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJL-AG-l9Q">
-                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.47225492289999998" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="135" id="Ciw-Oh-ZD2"/>
-                                            <constraint firstAttribute="height" constant="28" id="tFx-FG-zw9"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.91574807359999999" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="184" id="4CL-RR-KfY"/>
-                                    <constraint firstAttribute="height" constant="328" id="ICs-PW-y5P"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A6H-z9-7cw">
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHV-Bg-fDx">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="146" id="0jj-vM-tld"/>
-                                            <constraint firstAttribute="height" constant="238" id="O7C-3R-bJy"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="Retro Calc 2 Icon"/>
-                                    </button>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retro Calculator 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0T-yq-K7Y">
-                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.47225492289999998" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="179" id="K4z-lS-jMe"/>
-                                            <constraint firstAttribute="height" constant="28" id="xzv-id-oev"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
-                                        <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="266" id="E90-GB-nfC"/>
-                                    <constraint firstAttribute="width" constant="179" id="gNl-gV-WXr"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kBf-q7-ZDQ">
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed6-BI-WuW">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="238" id="aHz-Xi-EY6"/>
-                                            <constraint firstAttribute="width" constant="146" id="tjH-Mg-4mb"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="Tapper Icon"/>
-                                    </button>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tapper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHi-et-Oos">
-                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.47225492289999998" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="108" id="7bA-H2-agU"/>
-                                            <constraint firstAttribute="height" constant="28" id="Jw8-BW-ouQ"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
-                                        <color key="textColor" red="0.50196081400000003" green="1" blue="0.0" alpha="0.84396404110000001" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="266" id="Wp5-Dd-9Xz"/>
-                                    <constraint firstAttribute="width" constant="146" id="YFj-KR-5Yn"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="DD6-4k-6zO">
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icu-Bw-W7e">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="130" id="YN5-no-0Fz"/>
-                                            <constraint firstAttribute="height" constant="130" id="ZtE-NI-Egv"/>
-                                        </constraints>
-                                        <state key="normal" image="Catch Crisis Icon"/>
-                                    </button>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catch Crisis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNm-ru-srV">
-                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.47225492289999998" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="28" id="NEZ-cW-jBj"/>
-                                            <constraint firstAttribute="width" constant="116" id="Rqq-Ch-E7M"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="0.0" alpha="0.82389768839999999" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="173" id="fUS-o9-ZZf"/>
-                                    <constraint firstAttribute="width" constant="130" id="g0S-pW-7Rf"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="fka-zO-5Mq">
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b43-u1-wMN">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="130" id="L63-hX-7Qf"/>
-                                            <constraint firstAttribute="width" constant="130" id="YRC-Mh-gNP"/>
-                                        </constraints>
-                                        <state key="normal" image="BOOMBound Icon"/>
-                                    </button>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOOMBound" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqt-VI-htD">
-                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.47225492289999998" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="108" id="3Cp-3j-PHO"/>
-                                            <constraint firstAttribute="height" constant="28" id="H0a-se-zAD"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
-                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="0.94301155820000004" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="173" id="wDk-Cd-Kbr"/>
-                                    <constraint firstAttribute="width" constant="130" id="xaR-t3-Zxo"/>
-                                </constraints>
-                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="oja-1X-zyv"/>
                             <button opaque="NO" alpha="0.75" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tg-RS-49n">
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -391,26 +266,148 @@
                                     <action selector="backPressed:" destination="h3V-uf-bx0" eventType="touchUpInside" id="ovm-F7-kp9"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5PL-cS-F17">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzF-uL-E87">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="WZ3-io-AqD"/>
+                                            <constraint firstAttribute="width" constant="130" id="ica-ak-X13"/>
+                                        </constraints>
+                                        <state key="normal" image="BOOMBound Icon"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOOMBound" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbE-XC-uoh">
+                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Yhd-Er-4Nn"/>
+                                            <constraint firstAttribute="width" constant="130" id="uAR-30-7FL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
+                                        <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mzz-aK-66e">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3e-eA-cGe">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="OWh-vQ-tQq"/>
+                                            <constraint firstAttribute="width" constant="130" id="jNC-1D-4Fo"/>
+                                        </constraints>
+                                        <state key="normal" image="Catch Crisis Icon"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catch Crisis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91n-X6-3go">
+                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="130" id="HCY-hD-tug"/>
+                                            <constraint firstAttribute="height" constant="21" id="ONN-zM-cGy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="KhG-Gu-VFT"/>
+                                    <constraint firstAttribute="width" constant="130" id="eoj-DJ-N7e"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zSn-dN-fdw">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pou-cG-m2F">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="144" id="IKf-dx-LWH"/>
+                                            <constraint firstAttribute="width" constant="144" id="T3S-bA-Qp7"/>
+                                        </constraints>
+                                        <state key="normal" image="iTunesArtwork"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TamaGiga Pet 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uI2-O5-7Vc">
+                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="139" id="SMF-KM-3i5"/>
+                                            <constraint firstAttribute="height" constant="21" id="wa5-nm-k2B"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="lhz-KD-CS5"/>
+                                    <constraint firstAttribute="height" constant="175" id="shg-6M-TRH"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="5kv-0h-YB3">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqc-7F-nM2">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="173" id="3HQ-Of-KA7"/>
+                                            <constraint firstAttribute="height" constant="250" id="oWF-WF-VMz"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Tapper Icon"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tapper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6X-na-0cz">
+                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="139" id="29j-YB-UYA"/>
+                                            <constraint firstAttribute="height" constant="21" id="jag-2K-wjI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="269" id="JIu-92-PAo"/>
+                                    <constraint firstAttribute="width" constant="173" id="qk5-29-pze"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="WR1-Qa-v6M">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxP-6l-Fy2">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="181" id="YoF-jK-i0C"/>
+                                            <constraint firstAttribute="height" constant="273" id="kmX-Gs-aZd"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Retro Calc 2 Icon"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retro Calculator 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BX1-zQ-iHt">
+                                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="179" id="RWc-cg-tGH"/>
+                                            <constraint firstAttribute="height" constant="21" id="iTv-Gi-6kg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="lEz-IR-gba"/>
+                                    <constraint firstAttribute="height" constant="284" id="rmu-zl-bq7"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="A6H-z9-7cw" firstAttribute="top" secondItem="DD6-4k-6zO" secondAttribute="bottom" constant="1" id="4U2-6D-KWw"/>
-                            <constraint firstItem="DD6-4k-6zO" firstAttribute="leading" secondItem="Lan-2h-Hox" secondAttribute="trailing" constant="11" id="7TN-kR-wOb"/>
+                            <constraint firstAttribute="trailing" secondItem="oja-1X-zyv" secondAttribute="trailing" id="3WV-dM-Drr"/>
+                            <constraint firstItem="mzz-aK-66e" firstAttribute="leading" secondItem="w6u-xf-ebA" secondAttribute="leadingMargin" constant="21" id="9tE-1Q-S5y"/>
+                            <constraint firstItem="zSn-dN-fdw" firstAttribute="top" secondItem="5PL-cS-F17" secondAttribute="bottom" constant="6" id="ARH-ww-Ki1"/>
+                            <constraint firstItem="5PL-cS-F17" firstAttribute="centerX" secondItem="w6u-xf-ebA" secondAttribute="centerX" id="BoG-tp-HGj"/>
+                            <constraint firstItem="EiN-CY-Z74" firstAttribute="top" secondItem="oja-1X-zyv" secondAttribute="bottom" id="CQy-fg-ZxY"/>
                             <constraint firstItem="7Tg-RS-49n" firstAttribute="top" secondItem="w6u-xf-ebA" secondAttribute="top" constant="5" id="Evf-bV-yCA"/>
-                            <constraint firstItem="fka-zO-5Mq" firstAttribute="leading" secondItem="Lan-2h-Hox" secondAttribute="trailing" constant="11" id="F1W-rG-4b5"/>
-                            <constraint firstItem="A6H-z9-7cw" firstAttribute="leading" secondItem="kBf-q7-ZDQ" secondAttribute="trailing" constant="26" id="Fyg-fs-Hip"/>
-                            <constraint firstItem="EiN-CY-Z74" firstAttribute="top" secondItem="A6H-z9-7cw" secondAttribute="bottom" constant="18" id="Gbq-cS-ojy"/>
-                            <constraint firstItem="kBf-q7-ZDQ" firstAttribute="leading" secondItem="w6u-xf-ebA" secondAttribute="leadingMargin" id="LQ4-ef-0jG"/>
-                            <constraint firstItem="DD6-4k-6zO" firstAttribute="top" secondItem="fka-zO-5Mq" secondAttribute="bottom" constant="8" id="PuM-Y1-iLw"/>
-                            <constraint firstItem="aJg-cH-isv" firstAttribute="leading" secondItem="w6u-xf-ebA" secondAttribute="leading" id="Sl1-Xt-fRx"/>
-                            <constraint firstAttribute="trailing" secondItem="aJg-cH-isv" secondAttribute="trailing" id="TEC-ri-bin"/>
-                            <constraint firstItem="Lan-2h-Hox" firstAttribute="leading" secondItem="w6u-xf-ebA" secondAttribute="leadingMargin" constant="2" id="WX7-z7-VDi"/>
-                            <constraint firstAttribute="trailing" secondItem="A6H-z9-7cw" secondAttribute="trailing" constant="8" id="baE-64-PhK"/>
-                            <constraint firstItem="kBf-q7-ZDQ" firstAttribute="top" secondItem="Lan-2h-Hox" secondAttribute="bottom" constant="12" id="kBn-ch-Bx4"/>
-                            <constraint firstItem="A6H-z9-7cw" firstAttribute="leading" secondItem="kBf-q7-ZDQ" secondAttribute="trailing" constant="26" id="mm0-CM-Lm7"/>
-                            <constraint firstItem="EiN-CY-Z74" firstAttribute="top" secondItem="aJg-cH-isv" secondAttribute="bottom" id="q2o-ro-CMj"/>
-                            <constraint firstItem="aJg-cH-isv" firstAttribute="top" secondItem="w6u-xf-ebA" secondAttribute="top" id="q65-CW-VNh"/>
-                            <constraint firstItem="EiN-CY-Z74" firstAttribute="top" secondItem="kBf-q7-ZDQ" secondAttribute="bottom" constant="18" id="xGE-k9-PLr"/>
+                            <constraint firstItem="oja-1X-zyv" firstAttribute="leading" secondItem="w6u-xf-ebA" secondAttribute="leading" id="IBj-A1-skI"/>
+                            <constraint firstItem="EiN-CY-Z74" firstAttribute="top" secondItem="mzz-aK-66e" secondAttribute="bottom" constant="299" id="IOF-mH-W4D"/>
+                            <constraint firstAttribute="trailing" secondItem="WR1-Qa-v6M" secondAttribute="trailing" constant="183" id="Iya-n0-Opc"/>
+                            <constraint firstItem="EiN-CY-Z74" firstAttribute="top" secondItem="WR1-Qa-v6M" secondAttribute="bottom" constant="17" id="JYf-Vr-Epw"/>
+                            <constraint firstItem="WR1-Qa-v6M" firstAttribute="leading" secondItem="w6u-xf-ebA" secondAttribute="leading" constant="11" id="Jts-y6-RTE"/>
+                            <constraint firstItem="5kv-0h-YB3" firstAttribute="trailing" secondItem="w6u-xf-ebA" secondAttribute="trailingMargin" id="SXT-64-dkT"/>
+                            <constraint firstItem="mzz-aK-66e" firstAttribute="top" secondItem="5PL-cS-F17" secondAttribute="bottom" constant="20" id="TUG-Fr-ndG"/>
+                            <constraint firstItem="5kv-0h-YB3" firstAttribute="top" secondItem="zSn-dN-fdw" secondAttribute="bottom" constant="12" id="aee-Kz-o1q"/>
+                            <constraint firstItem="EiN-CY-Z74" firstAttribute="top" secondItem="5kv-0h-YB3" secondAttribute="bottom" constant="18" id="bcx-pq-cep"/>
+                            <constraint firstItem="oja-1X-zyv" firstAttribute="top" secondItem="w6u-xf-ebA" secondAttribute="top" id="ksd-Ei-Ltf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zSn-dN-fdw" secondAttribute="trailing" constant="4" id="l44-eu-pUJ"/>
+                            <constraint firstItem="5kv-0h-YB3" firstAttribute="top" secondItem="zSn-dN-fdw" secondAttribute="bottom" constant="12" id="of8-HG-SyN"/>
                             <constraint firstItem="7Tg-RS-49n" firstAttribute="leading" secondItem="w6u-xf-ebA" secondAttribute="leading" id="yKb-D4-8L5"/>
                         </constraints>
                     </view>
@@ -432,9 +429,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cRX-dJ-Tlh"/>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4s-ey-8Ju">
+                            <button opaque="NO" alpha="0.75" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4s-ey-8Ju">
                                 <frame key="frameInset" width="122" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
                                 <state key="normal" title="Go Back">
@@ -444,41 +440,68 @@
                                     <action selector="backPressed:" destination="Og4-p9-5we" eventType="touchUpInside" id="EVg-QU-MJK"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scionFRS2016" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-b2-c1k">
-                                <frame key="frameInset" minX="13" minY="37" width="351" height="258"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scionFRS2016" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-b2-c1k">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="351" id="bH7-X9-iCF"/>
+                                    <constraint firstAttribute="height" constant="258" id="i1H-kz-wfR"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple-border" translatesAutoresizingMaskIntoConstraints="NO" id="MJc-jd-bhX">
-                                <frame key="frameInset" minX="8" minY="34" width="359" height="266"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simple-border" translatesAutoresizingMaskIntoConstraints="NO" id="MJc-jd-bhX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="359" id="B2e-OX-dl0"/>
+                                    <constraint firstAttribute="height" constant="266" id="Hwt-xQ-kg0"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF4-dx-txG">
-                                <frame key="frameInset" minX="13" minY="308" width="348" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">My name is Jason McCoy and I am an experienced iOS developer, app designer, app enthusiast and app-trepreneur.                            My goal is to always provide fantastic experiences to my end users.                                                                                                                                                 I was born in 1990 at Watertown, New York and was involved with technology since I was 10.                                                                         Here is what Downtown Watertown, New York looks like:</mutableString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF4-dx-txG">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="348" id="EKE-CY-Sia"/>
+                                    <constraint firstAttribute="height" constant="199" id="QzO-gR-9mv"/>
+                                </constraints>
+                                <string key="text">My name is Jason McCoy and I am an experienced iOS developer, app designer, app enthusiast and app-trepreneur.                            My goal is to always provide fantastic experiences to my end users.                                                                                                                                                 I was born in 1990 at Watertown, New York and was involved with technology since I was 10.                                                                         Here is what Watertown, New York looks like:</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2016 Scion FR-S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S40-bH-MCI">
-                                <frame key="frameInset" minX="32" minY="63" width="138" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016 Scion FR-S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S40-bH-MCI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="SD1-4z-lfn"/>
+                                    <constraint firstAttribute="height" constant="21" id="izc-Mt-r5R"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Archive" family="Archive" pointSize="17"/>
                                 <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.92746682363013699" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Watertown-New-York-NY" translatesAutoresizingMaskIntoConstraints="NO" id="MmA-cg-PP7">
-                                <frame key="frameInset" minX="13" minY="519" width="351" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Watertown-New-York-NY" translatesAutoresizingMaskIntoConstraints="NO" id="MmA-cg-PP7">
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="351" id="Xu7-gt-jlg"/>
+                                    <constraint firstAttribute="height" constant="128" id="fPZ-9h-f9S"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="cRX-dJ-Tlh" secondAttribute="trailing" id="5vL-ev-GzB"/>
+                            <constraint firstItem="cF4-dx-txG" firstAttribute="top" secondItem="MJc-jd-bhX" secondAttribute="bottom" constant="8" id="6ke-EZ-DUH"/>
+                            <constraint firstItem="MmA-cg-PP7" firstAttribute="leading" secondItem="lS2-ir-con" secondAttribute="leading" constant="13" id="Eia-G0-f7Q"/>
+                            <constraint firstAttribute="trailing" secondItem="NAU-b2-c1k" secondAttribute="trailing" constant="11" id="GxV-0N-YcP"/>
+                            <constraint firstItem="h0Q-AZ-adE" firstAttribute="top" secondItem="MmA-cg-PP7" secondAttribute="bottom" constant="20" id="NzQ-pQ-AVZ"/>
+                            <constraint firstItem="MJc-jd-bhX" firstAttribute="top" secondItem="F4s-ey-8Ju" secondAttribute="bottom" constant="5" id="PBw-xW-mM4"/>
                             <constraint firstItem="cRX-dJ-Tlh" firstAttribute="top" secondItem="lS2-ir-con" secondAttribute="top" id="PR2-O6-G9I"/>
+                            <constraint firstItem="NAU-b2-c1k" firstAttribute="top" secondItem="F4s-ey-8Ju" secondAttribute="bottom" constant="7" id="WC1-y1-6d4"/>
                             <constraint firstItem="h0Q-AZ-adE" firstAttribute="top" secondItem="cRX-dJ-Tlh" secondAttribute="bottom" id="YzK-WK-W94"/>
+                            <constraint firstAttribute="trailing" secondItem="cF4-dx-txG" secondAttribute="trailing" constant="14" id="aN3-3W-Vnt"/>
+                            <constraint firstItem="S40-bH-MCI" firstAttribute="leading" secondItem="lS2-ir-con" secondAttribute="leadingMargin" constant="16" id="aev-zz-0Fm"/>
                             <constraint firstItem="cRX-dJ-Tlh" firstAttribute="leading" secondItem="lS2-ir-con" secondAttribute="leading" id="c7q-DT-Ikx"/>
+                            <constraint firstItem="cF4-dx-txG" firstAttribute="top" secondItem="MJc-jd-bhX" secondAttribute="bottom" constant="8" id="e4r-Ac-7qA"/>
+                            <constraint firstAttribute="trailing" secondItem="MmA-cg-PP7" secondAttribute="trailing" constant="11" id="gl5-cZ-dyT"/>
+                            <constraint firstItem="cF4-dx-txG" firstAttribute="top" secondItem="NAU-b2-c1k" secondAttribute="bottom" constant="13" id="leh-4O-vCw"/>
+                            <constraint firstItem="MJc-jd-bhX" firstAttribute="leading" secondItem="lS2-ir-con" secondAttribute="leading" constant="8" id="ngg-aV-MU8"/>
+                            <constraint firstItem="cF4-dx-txG" firstAttribute="leading" secondItem="lS2-ir-con" secondAttribute="leading" constant="13" id="oLr-rQ-RE0"/>
+                            <constraint firstAttribute="trailing" secondItem="MJc-jd-bhX" secondAttribute="trailing" constant="8" id="oiQ-qk-qWx"/>
+                            <constraint firstItem="S40-bH-MCI" firstAttribute="top" secondItem="F4s-ey-8Ju" secondAttribute="bottom" constant="33" id="r7z-P7-VTa"/>
+                            <constraint firstItem="NAU-b2-c1k" firstAttribute="leading" secondItem="lS2-ir-con" secondAttribute="leading" constant="13" id="sVA-fB-yDE"/>
+                            <constraint firstItem="MmA-cg-PP7" firstAttribute="top" secondItem="cF4-dx-txG" secondAttribute="bottom" constant="12" id="udN-Oh-y8A"/>
                         </constraints>
                     </view>
                     <connections>
@@ -494,11 +517,11 @@
         <image name="BOOMBound Icon" width="180" height="180"/>
         <image name="Catch Crisis Icon" width="180" height="180"/>
         <image name="Retro Calc 2 Icon" width="432" height="702"/>
-        <image name="TamaGiga Pet 2 Icon" width="609" height="1024"/>
         <image name="Tapper Icon" width="526" height="870"/>
         <image name="Watertown-New-York-NY" width="1170" height="440"/>
         <image name="bg" width="320" height="480"/>
         <image name="githublogo" width="512" height="512"/>
+        <image name="iTunesArtwork" width="512" height="512"/>
         <image name="meandirene" width="960" height="960"/>
         <image name="nerdorgeek logo" width="300" height="63"/>
         <image name="scionFRS2016" width="2048" height="1536"/>
