@@ -1,7 +1,7 @@
 # myHomeBio - Will let users read a short description about me and see my apps.
 # By Jason McCoy
 *So far only compatible with all iPhone models in portrait mode for iOS 10.
-(I plan to add more View Controllers upon clicking the app icon buttons so you can read more info about it.
+(I plan to add more View Controllers upon clicking the app icon buttons so you can read more info about it.)
 
 
 Here is what my final xcode setup looks like:
