@@ -18,8 +18,3 @@ When you click the "About Me" button, it will tell you short bio about me.
 
 When you click the "My Apps" button, it will show images of all my apps that I'm most proud of.
 ![alt tag](http://mccoygames.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-09-at-11.18.36-PM.png)
-
-
-
-All Photo(s) by Jason McCoy / CC BY
-http://creativecommons.org/licenses/by/2.0/
